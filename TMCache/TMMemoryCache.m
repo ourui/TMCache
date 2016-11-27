@@ -50,7 +50,7 @@ NSString * const TMMemoryCachePrefix = @"com.tumblr.TMMemoryCache";
 {
     if (self = [super init]) {
         _lock = dispatch_semaphore_create(1);
-        NSString *queueName = [[NSString alloc] initWithFormat:@"%@.%p", TMMemoryCachePrefix, self];
+        NSString *queueName = [[NSString alloc] initWithFormat:@"%@.%p", TMMemoryCachePrefix,(void *)self];
         _queue = dispatch_queue_create([queueName UTF8String], DISPATCH_QUEUE_CONCURRENT);
 
         _dictionary = [[NSMutableDictionary alloc] init];

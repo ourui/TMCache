@@ -36,7 +36,7 @@ NSString * const TMCacheSharedName = @"TMCacheShared";
     if (self = [super init]) {
         _name = [name copy];
         
-        NSString *queueName = [[NSString alloc] initWithFormat:@"%@.%p", TMCachePrefix, self];
+        NSString *queueName = [[NSString alloc] initWithFormat:@"%@.%p", TMCachePrefix,(void *)self];
         _asyncQueue = dispatch_queue_create([[NSString stringWithFormat:@"%@ Asynchronous Queue", queueName] UTF8String], DISPATCH_QUEUE_CONCURRENT);
         
         _diskCache = [[TMDiskCache alloc] initWithName:_name rootPath:rootPath];
@@ -47,7 +47,7 @@ NSString * const TMCacheSharedName = @"TMCacheShared";
 
 - (NSString *)description
 {
-    return [[NSString alloc] initWithFormat:@"%@.%@.%p", TMCachePrefix, _name, self];
+    return [[NSString alloc] initWithFormat:@"%@.%@.%p", TMCachePrefix, _name, (void *)self];
 }
 
 + (instancetype)sharedCache

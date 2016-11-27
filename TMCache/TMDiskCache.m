@@ -100,7 +100,7 @@ NSString * const TMDiskCacheSharedName = @"TMDiskCacheShared";
 
 - (NSString *)description
 {
-    return [[NSString alloc] initWithFormat:@"%@.%@.%p", TMDiskCachePrefix, _name, self];
+    return [[NSString alloc] initWithFormat:@"%@.%@.%p", TMDiskCachePrefix, _name, (void *)self];
 }
 
 + (instancetype)sharedCache
