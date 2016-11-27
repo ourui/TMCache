@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6839251DEB2B01009AB674 /* TMCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6839241DEB2B01009AB674 /* TMCacheTests.m */; };
 		662900351A66B724009C10BD /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E5D83A171DF0AF0041E777 /* TMCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		662900361A66B727009C10BD /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E5D83A171DF0AF0041E777 /* TMCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6629003B1A66B76B009C10BD /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83B171DF0AF0041E777 /* TMCache.m */; };
@@ -25,21 +26,14 @@
 		D07F1EC2171AFB7A001DBA02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F1EC1171AFB7A001DBA02 /* main.m */; };
 		D07F1EC6171AFB7A001DBA02 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F1EC5171AFB7A001DBA02 /* TMAppDelegate.m */; };
 		D07F1ECC171AFB7A001DBA02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D07F1ECB171AFB7A001DBA02 /* Default-568h@2x.png */; };
-		D07F1ED4171AFB7A001DBA02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07F1ED3171AFB7A001DBA02 /* SenTestingKit.framework */; };
-		D07F1ED5171AFB7A001DBA02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07F1EB5171AFB7A001DBA02 /* UIKit.framework */; };
-		D07F1ED6171AFB7A001DBA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07F1EB7171AFB7A001DBA02 /* Foundation.framework */; };
-		D07F1EE1171AFB7A001DBA02 /* TMCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F1EE0171AFB7A001DBA02 /* TMCacheTests.m */; };
 		D0E5D840171DF0AF0041E777 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83B171DF0AF0041E777 /* TMCache.m */; };
-		D0E5D841171DF0AF0041E777 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83B171DF0AF0041E777 /* TMCache.m */; };
 		D0E5D842171DF0AF0041E777 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83D171DF0AF0041E777 /* TMDiskCache.m */; };
-		D0E5D843171DF0AF0041E777 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83D171DF0AF0041E777 /* TMDiskCache.m */; };
 		D0E5D844171DF0AF0041E777 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83F171DF0AF0041E777 /* TMMemoryCache.m */; };
-		D0E5D845171DF0AF0041E777 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D83F171DF0AF0041E777 /* TMMemoryCache.m */; };
 		D0E5D848171DF0FA0041E777 /* TMExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D847171DF0FA0041E777 /* TMExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D07F1ED7171AFB7A001DBA02 /* PBXContainerItemProxy */ = {
+		1A6839271DEB2B01009AB674 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D07F1EAA171AFB7A001DBA02 /* Project object */;
 			proxyType = 1;
@@ -62,11 +56,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A6839221DEB2B01009AB674 /* TMCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6839241DEB2B01009AB674 /* TMCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCacheTests.m; sourceTree = "<group>"; };
+		1A6839261DEB2B01009AB674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662900111A66B60D009C10BD /* TMCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		662900141A66B60D009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6629FFED1A66B512009C10BD /* TMCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6629FFF01A66B512009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93E151CE1AEA960B00CCD447 /* TMCacheBackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCacheBackgroundTaskManager.h; sourceTree = "<group>"; };
 		D07F1EB2171AFB7A001DBA02 /* TMCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F1EB5171AFB7A001DBA02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D07F1EB7171AFB7A001DBA02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,11 +73,7 @@
 		D07F1EC4171AFB7A001DBA02 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
 		D07F1EC5171AFB7A001DBA02 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
 		D07F1ECB171AFB7A001DBA02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D07F1ED2171AFB7A001DBA02 /* TMCacheTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMCacheTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F1ED3171AFB7A001DBA02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D07F1EDB171AFB7A001DBA02 /* TMCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMCacheTests-Info.plist"; sourceTree = "<group>"; };
-		D07F1EDF171AFB7A001DBA02 /* TMCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCacheTests.h; sourceTree = "<group>"; };
-		D07F1EE0171AFB7A001DBA02 /* TMCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCacheTests.m; sourceTree = "<group>"; };
 		D0E5D83A171DF0AF0041E777 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
 		D0E5D83B171DF0AF0041E777 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
 		D0E5D83C171DF0AF0041E777 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
@@ -93,6 +85,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A68391F1DEB2B01009AB674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6629000D1A66B60D009C10BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,19 +116,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D07F1ECE171AFB7A001DBA02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D07F1ED4171AFB7A001DBA02 /* SenTestingKit.framework in Frameworks */,
-				D07F1ED5171AFB7A001DBA02 /* UIKit.framework in Frameworks */,
-				D07F1ED6171AFB7A001DBA02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A6839231DEB2B01009AB674 /* TMCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6839241DEB2B01009AB674 /* TMCacheTests.m */,
+				1A6839261DEB2B01009AB674 /* Info.plist */,
+			);
+			path = TMCacheTests;
+			sourceTree = "<group>";
+		};
 		662900121A66B60D009C10BD /* OS X */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,12 +163,12 @@
 		D07F1EA9171AFB7A001DBA02 = {
 			isa = PBXGroup;
 			children = (
-				D07F1EBB171AFB7A001DBA02 /* TMCache */,
+				D07F1EBB171AFB7A001DBA02 /* TMCacheExample */,
 				D0E5D839171DF0AF0041E777 /* TMCache */,
-				D07F1ED9171AFB7A001DBA02 /* TMCacheTests */,
 				D07F1EBC171AFB7A001DBA02 /* Supporting Files */,
 				6629FFEE1A66B512009C10BD /* iOS */,
 				662900121A66B60D009C10BD /* OS X */,
+				1A6839231DEB2B01009AB674 /* TMCacheTests */,
 				D07F1EB4171AFB7A001DBA02 /* Frameworks */,
 				D07F1EB3171AFB7A001DBA02 /* Products */,
 			);
@@ -180,9 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				D07F1EB2171AFB7A001DBA02 /* TMCache.app */,
-				D07F1ED2171AFB7A001DBA02 /* TMCacheTests.octest */,
 				6629FFED1A66B512009C10BD /* TMCache.framework */,
 				662900111A66B60D009C10BD /* TMCache.framework */,
+				1A6839221DEB2B01009AB674 /* TMCacheTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +196,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D07F1EBB171AFB7A001DBA02 /* TMCache */ = {
+		D07F1EBB171AFB7A001DBA02 /* TMCacheExample */ = {
 			isa = PBXGroup;
 			children = (
 				D07F1EC4171AFB7A001DBA02 /* TMAppDelegate.h */,
@@ -206,6 +204,7 @@
 				D0E5D846171DF0FA0041E777 /* TMExampleView.h */,
 				D0E5D847171DF0FA0041E777 /* TMExampleView.m */,
 			);
+			name = TMCacheExample;
 			path = TMCache;
 			sourceTree = "<group>";
 		};
@@ -221,16 +220,6 @@
 			path = TMCache;
 			sourceTree = "<group>";
 		};
-		D07F1ED9171AFB7A001DBA02 /* TMCacheTests */ = {
-			isa = PBXGroup;
-			children = (
-				D07F1EDB171AFB7A001DBA02 /* TMCacheTests-Info.plist */,
-				D07F1EDF171AFB7A001DBA02 /* TMCacheTests.h */,
-				D07F1EE0171AFB7A001DBA02 /* TMCacheTests.m */,
-			);
-			path = TMCacheTests;
-			sourceTree = "<group>";
-		};
 		D0E5D839171DF0AF0041E777 /* TMCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +229,6 @@
 				D0E5D83D171DF0AF0041E777 /* TMDiskCache.m */,
 				D0E5D83E171DF0AF0041E777 /* TMMemoryCache.h */,
 				D0E5D83F171DF0AF0041E777 /* TMMemoryCache.m */,
-				93E151CE1AEA960B00CCD447 /* TMCacheBackgroundTaskManager.h */,
 			);
 			name = TMCache;
 			path = ../TMCache;
@@ -272,6 +260,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1A6839211DEB2B01009AB674 /* TMCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6839291DEB2B01009AB674 /* Build configuration list for PBXNativeTarget "TMCacheTests" */;
+			buildPhases = (
+				1A68391E1DEB2B01009AB674 /* Sources */,
+				1A68391F1DEB2B01009AB674 /* Frameworks */,
+				1A6839201DEB2B01009AB674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6839281DEB2B01009AB674 /* PBXTargetDependency */,
+			);
+			name = TMCacheTests;
+			productName = TMCacheTests;
+			productReference = 1A6839221DEB2B01009AB674 /* TMCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		662900101A66B60D009C10BD /* OS X */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6629002A1A66B60D009C10BD /* Build configuration list for PBXNativeTarget "OS X" */;
@@ -326,25 +332,6 @@
 			productReference = D07F1EB2171AFB7A001DBA02 /* TMCache.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D07F1ED1171AFB7A001DBA02 /* TMCacheTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D07F1EE7171AFB7A001DBA02 /* Build configuration list for PBXNativeTarget "TMCacheTests" */;
-			buildPhases = (
-				D07F1ECD171AFB7A001DBA02 /* Sources */,
-				D07F1ECE171AFB7A001DBA02 /* Frameworks */,
-				D07F1ECF171AFB7A001DBA02 /* Resources */,
-				D07F1ED0171AFB7A001DBA02 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D07F1ED8171AFB7A001DBA02 /* PBXTargetDependency */,
-			);
-			name = TMCacheTests;
-			productName = TMCacheTests;
-			productReference = D07F1ED2171AFB7A001DBA02 /* TMCacheTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +343,11 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Tumblr;
 				TargetAttributes = {
+					1A6839211DEB2B01009AB674 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D07F1EB1171AFB7A001DBA02;
+					};
 					662900101A66B60D009C10BD = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -377,14 +369,21 @@
 			projectRoot = "";
 			targets = (
 				D07F1EB1171AFB7A001DBA02 /* TMCache */,
-				D07F1ED1171AFB7A001DBA02 /* TMCacheTests */,
 				6629FFEC1A66B512009C10BD /* iOS */,
 				662900101A66B60D009C10BD /* OS X */,
+				1A6839211DEB2B01009AB674 /* TMCacheTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A6839201DEB2B01009AB674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6629000F1A66B60D009C10BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,32 +406,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D07F1ECF171AFB7A001DBA02 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D07F1ED0171AFB7A001DBA02 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		1A68391E1DEB2B01009AB674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				1A6839251DEB2B01009AB674 /* TMCacheTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		6629000C1A66B60D009C10BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,28 +450,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D07F1ECD171AFB7A001DBA02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D07F1EE1171AFB7A001DBA02 /* TMCacheTests.m in Sources */,
-				D0E5D841171DF0AF0041E777 /* TMCache.m in Sources */,
-				D0E5D843171DF0AF0041E777 /* TMDiskCache.m in Sources */,
-				D0E5D845171DF0AF0041E777 /* TMMemoryCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D07F1ED8171AFB7A001DBA02 /* PBXTargetDependency */ = {
+		1A6839281DEB2B01009AB674 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D07F1EB1171AFB7A001DBA02 /* TMCache */;
-			targetProxy = D07F1ED7171AFB7A001DBA02 /* PBXContainerItemProxy */;
+			targetProxy = 1A6839271DEB2B01009AB674 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1A68392A1DEB2B01009AB674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TMCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = wangrui.TMCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMCache.app/TMCache";
+			};
+			name = Debug;
+		};
+		1A68392B1DEB2B01009AB674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TMCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = wangrui.TMCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMCache.app/TMCache";
+			};
+			name = Release;
+		};
 		662900071A66B513009C10BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,45 +758,17 @@
 			};
 			name = Release;
 		};
-		D07F1EE8171AFB7A001DBA02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMCache.app/TMCache";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TMCache/TMCache-Prefix.pch";
-				INFOPLIST_FILE = "TMCacheTests/TMCacheTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		D07F1EE9171AFB7A001DBA02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMCache.app/TMCache";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TMCache/TMCache-Prefix.pch";
-				INFOPLIST_FILE = "TMCacheTests/TMCacheTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A6839291DEB2B01009AB674 /* Build configuration list for PBXNativeTarget "TMCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A68392A1DEB2B01009AB674 /* Debug */,
+				1A68392B1DEB2B01009AB674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		662900061A66B513009C10BD /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -791,15 +801,6 @@
 			buildConfigurations = (
 				D07F1EE5171AFB7A001DBA02 /* Debug */,
 				D07F1EE6171AFB7A001DBA02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D07F1EE7171AFB7A001DBA02 /* Build configuration list for PBXNativeTarget "TMCacheTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D07F1EE8171AFB7A001DBA02 /* Debug */,
-				D07F1EE9171AFB7A001DBA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

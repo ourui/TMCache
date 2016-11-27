@@ -14,8 +14,8 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D07F1ED1171AFB7A001DBA02"
-               BuildableName = "TMCacheTests.octest"
+               BlueprintIdentifier = "1A6839211DEB2B01009AB674"
+               BuildableName = "TMCacheTests.xctest"
                BlueprintName = "TMCacheTests"
                ReferencedContainer = "container:TMCache.xcodeproj">
             </BuildableReference>
@@ -93,17 +93,17 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D07F1ED1171AFB7A001DBA02"
-               BuildableName = "TMCacheTests.octest"
+               BlueprintIdentifier = "1A6839211DEB2B01009AB674"
+               BuildableName = "TMCacheTests.xctest"
                BlueprintName = "TMCacheTests"
                ReferencedContainer = "container:TMCache.xcodeproj">
             </BuildableReference>
@@ -158,17 +158,21 @@
             ReferencedContainer = "container:TMCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D07F1EB1171AFB7A001DBA02"
@@ -181,10 +185,10 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
    </ProfileAction>
    <AnalyzeAction
